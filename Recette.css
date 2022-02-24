@@ -1,0 +1,160 @@
+* {/* le selecteur * permet de tout selectionné dans pge HTML */
+    overflow: auto;/* qui permet de réadapter la taille du conteneur pour contenir tout ce qui depasse*/
+}/* O n met toujours les styles générique en haut des fichiers*/
+
+
+body {
+    background-color: #8BA1BB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+p.categorie {
+    background-color: black;
+    color: white;
+    display: inline-block;
+
+    margin-top: -20px;
+    padding: 08px 18px;
+    margin-bottom: 0px;
+    /*Mettre le texte en gras*/
+    font-weight: bold;
+    /*taille de police*/
+    font-size: 16px;
+
+}
+
+div.Contenu {
+    background-color: white;
+    margin: 60px 10% 50px 10%;
+    padding: 0px 30px 30px 30px ;/*Le padding ça sert à avoir une marge interne*/
+    min-width: 350px;
+    box-shadow: 0px 0px 10px 8px rgba(0,0, 0, 0.2);/*font x font y flou 10px et ombre 8px*/
+    overflow: visible;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+p.Description {
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 14px;
+
+}
+
+.Description {
+    text-align: center;
+    width: 100%;
+
+}
+
+div.categorie {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: visible;
+}
+
+div.separateur {
+    /*Largeur*/
+    width: 100px;
+    /*Hauteur*/
+    height: 1px;
+    background-color: black;
+    margin-left: 45%;
+}
+div.info{
+    position: relative;
+
+}
+table.info{
+    position: absolute; 
+    bottom: 0;width: 100%; 
+    color: white;
+    background-color:#6C829DC0 ;
+    height: 80px;
+}
+table.info td{
+  text-align: center;
+  font-size: 14px;
+  vertical-align:top;
+
+}
+table.info th{
+  font-size: 16px;
+  vertical-align:bottom;
+   padding-bottom: 4px;
+
+}
+img.info{
+    display: block;
+    max-height:400px;
+    object-fit: cover;
+    min-height: 200px;
+    /*background-color: aqua;*/
+}
+
+div.colonne{
+    width:45%;/*Largeur*/
+    margin-top: 20px; /*Faire descendre la partie*/
+
+}
+div.colonne h2{
+     text-align: center; /* c'est pour centrer*/
+     text-transform: uppercase; /* Mettre minuscule en majuscule*/
+     font-size: 15px;
+     border-bottom: 5px solid #6C829DC0;/*Pour la bordure en bas*/
+     padding-bottom: 5px;
+ }
+
+div.colonne1 
+{
+ /*background-color: lightblue;couleur de fond*/
+ display: inline-block;/* deplace pour mettre au dessus*/
+ margin-right: 10%;
+
+}
+
+div.colonne2{
+    float:right; /* C'est pour deplacer vers ma droite*/
+
+}
+div.colonne3 p{
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid lightgray;
+    padding: 8px 0px ;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+table.preparation p.numero {
+   background-color:#6C829DC0;
+   color: white;
+   width:25px ;
+   height: 25px;
+   text-align: center;
+   font-size: 14px;
+   font-weight: bold;/*Pour mettre le texte en gras*/
+   padding-top: 4px;
+   box-sizing: border-box;/*comprendre que la taille de padding est à l'intérieur de taille totale*/
+   border-radius: 50%;/*Mettre effet rond*/
+   margin: 0;
+}
+table.preparation td{
+    vertical-align: top;
+}
+
+table.preparation td.preparation_étape{
+     font-size: 14px;
+     padding-left: 10px;
+     padding-bottom: 25px;
+   }
+
+   table.preparation tr{
+    height: 40px;
+}
